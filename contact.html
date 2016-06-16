@@ -216,55 +216,7 @@ $(document).ready(function(){
             <!-- Start Right Side -->
             <div class="sidebar one-half-seg right">
 
-                <div class="corner-shadow right-one-half"></div>
-
-                <!-- Start Contact Form -->
-                <div class="title right-pos"><h2>Contact Form</h2></div>
-
-                <!-- Start Feedback Form -->
-                <div class="feedback-form">
-
-
-                    <!-- Start Notifications -->
-                    <div id="mail_success" class="success-box"><p>Thank you! Your message has been successfully sent.</p></div>
-                    <div id="mail_error" class="warning-box"><p>Something went wrong. Maybe captcha code is not correct.</p></div>
-                    <!-- End Notifications -->
-                    
-                    <!-- Start Form -->
-                    <form id="feedback_form" method="post" onsubmit="return false" action="#">
-
-                        <fieldset>
-                            <label>Your Name <span class="required">(required)</span><span id="name_error" class="error">Please enter your name</span></label>
-                            <input type="text" name="name" id="name" value="" />
-
-                            <label>Email <span class="required">(required)</span><span id="email_error" class="error">Enter your email or check the correct entry</span></label>
-                            <input type="text" name="email" id="email" value="" />
-
-                            <label>Subject</label>
-                            <div class="feedback-field"><input type="text" name="subject" id="subject" value="" /></div>
-
-                            <label>Message <span class="required">(required)</span><span id="message_error" class="error">Please type your message in the box below</span></label>
-                            <textarea name="message" id="message" rows="5" cols="54"></textarea>
-
-                            <div class="captcha-image">
-                                <img src="send_email.php?code=1" id="security_code" alt="Security Code" title="Security Code" />
-                            </div>
-
-                            <div class="left">  
-                                <label>Captcha Code <span class="required">(required)</span><span id="captcha_error" class="error">Enter captcha code</span></label>
-                                <input type="text" name="captcha" id="captcha" maxlength="5" value="" />
-                            </div>
-
-                            <div class="feedback-button">
-                                <a href="#" class="blue-button" id="send_message">Send Message</a>
-                            </div>
-                        </fieldset>
-
-                    </form>
-                    <!-- End Form -->
-
-                </div>
-                <!-- End Feedback Form -->
+                <!-- Contact form should go here. -->
 		
             </div>
             <!-- End Right Side -->
