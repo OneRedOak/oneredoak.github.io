@@ -1,2 +1,0 @@
-# doekits
-doekits.com
